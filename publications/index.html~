@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Dr. Phillip Smith - Publications</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li ><a href="../index.html">Home</a></li>
+		<li><a href="../PhillipSmithCV.pdf">CV</a></li>	
+          <li class="active"><a href="#">Research</a></li>
+          <li><a href="../datasets/index.php">Datasets</a></li>
+			<li><a href="../teaching/index.html">Teaching</a></li>
+        </ul>
+        <h3 class="muted">Dr. Phillip Smith</h3>
+
+      </div>
+
+      <hr>
+<h2>Research Projects</h2>
+2020-21: I was a co-investigator on a interdisciplinary project between Psychology and Computer Science with <a href="https://www.birmingham.ac.uk/staff/profiles/psychology/devine-rory.aspx">Rory Devine</a>, <a href="http://vkovatchev.com/">Venelin Kovatchev</a> and <a href="https://www.cs.bham.ac.uk/~mgl/">Mark Lee</a>, on the topic of Mindreading, Psychopathological and Social Adjustment in Middle Childhood.
+<p><p>
+
+<h2>PhD Students</h2>
+
+I co-supervise the following students:<p>
+<li> <a href="">Katie Mae Potts</a>: Applications of Virtual Reality to Support Mental Health
+<li> <a href="https://www.birmingham.ac.uk/staff/profiles/computer-science/phd/idrees-rizwan.aspx">Rizwan Idrees</a>: NLP for Data Mining
+<li> Shareefa Al Amer: Multilingual Event Extraction from Social Media Data 
+<li> <a href="https://www.cs.bham.ac.uk/~axa1314/">Alaa Alharbi</a>: Event Extraction from Social Media.
+<li> <a href="https://www.cs.bham.ac.uk/~aia784/">Abdullah Alharbi</a>: Emotional Intensity Detection from Text.
+<li> <a href="https://www.cs.bham.ac.uk/~gxa713/">Ghadi Alnafesah</a>: Deep Learning for Metaphor Classification.
+<li> Ohoud Alzahrani: Behaviour Prediction on Social Media.
+<li> <a href="https://www.cs.bham.ac.uk/~mxl765/">Maria Leggatt</a>: Aspect-Level Sentiment Analysis.
+<li> <a href="https://www.cs.bham.ac.uk/~sah624/"> Shatha Hakami</a>: Investigating Emotions in Digital Social Networks:
+The Role of Emoji in Textual Arabic Contents
+<li> <a href="https://www.cs.bham.ac.uk/~txg857/">Tuba Gokhan</a>: Text Summarisation
+<li> <a href="https://www.cs.bham.ac.uk/~wxl885/">Wei Li</a>: Few Shot Learning for Natural Language Processing.
+<p><p>
+
+<h2>Publications</h2>
+<a href="https://ieeexplore.ieee.org/abstract/document/10008377">Shatha Ali A. Hakami, Robert Hendley &amp; Phillip Smith (2022) in the 14th International Conference on Computational Intelligence and Communication Networks (CICN), IEEE, pp 199-203.</a><br><br>
+<a href="http://www.lrec-conf.org/proceedings/lrec2022/workshops/OSACT/pdf/2022.osact-1.6.pdf"> Shatha Ali A. Hakami, Robert Hendley &amp; Phillip Smith (2022) "A Context-free Arabic Emoji Sentiment Lexicon (CF-Arab-ESL)" in Proceedings of the OSACT 2022 Workshop @LREC2022, pp.51-59.</a><br><br>
+<a href="https://www.sciencedirect.com/science/article/pii/S0169023X21000938"/>Abdullah I. Alharbi, Phillip Smith &amp; Mark Lee (2022) "Integrating character-level and word-level representation for affect in Arabic tweets", Data & Knowledge Engineering, Elsevier.</a><br><br>
+<a href="https://aclanthology.org/2021.fnp-1.18.pdf"/> Tuba Gokhan, Phillip Smith &amp;  Mark Lee (2021) "Extractive Financial Narrative Summarisation using SentenceBERT Based Clustering" in Proceedings of the 3rd Financial Narrative Processing Workshop, ACL, pp.94-98.</a><br><br>
+<a href="https://aclanthology.org/2021.acl-long.96.pdf"/>Venelin Kovatchev, Phillip Smith, Mark Lee &amp; Rory Devine (2021) "Can vectors read minds better than experts? Comparing data augmentation strategies for the automated scoring of children’s mindreading ability", in Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), ACL, pp. 1196-1206.</a><br><br>
+<a href="https://www.sciencedirect.com/science/article/pii/S1877050921012084">Abdullah I. Alharbi, Phillip Smith &amp; Mark Lee (2021) "Enhancing Contextualised Language Models with Static Character and Word Embeddings for Emotional Intensity and Sentiment Strength Detection in Arabic Tweets" in Procedia Computer Science Vol. 189, Elsevier, pp.258-265.</a><br><br>
+<a href="https://www.aclweb.org/anthology/2021.wanlp-1.7/">Shatha Ali A. Hakami, Robert Hendley &amp; Phillip Smith (2021) "Arabic Emoji Sentiment Lexicon (Arab-ESL): A Comparison between Arabic and European Emoji Sentiment Lexicons", in Proceedings of the Sixth Arabic Natural Language Processing Workshop (WANLP), EACL, pp. 60-71.</a><br><br>
+<a href="https://www.aclweb.org/anthology/2020.coling-main.547.pdf">Venelin Kovatchev, Phillip Smith, Mark Lee, Imogen Grumley Traynor, Irene Luque Aguilera &amp; Rory Devine (2020) "“What is on your mind?” Automated Scoring of Mindreading in Childhood and Early Adolescence", in Proceedings of the 28th International Conference on Computational Linguistics, COLING, pp 6217-6228.</a><br><br>
+<a href="https://www.thinkmind.org/articles/huso_2020_1_50_80038.pdf">Shatha Ali A. Hakami, Robert Hendley &amp; Phillip Smith (2020) "Emoji as Sentiment Indicators: An Investigative Case Study in Arabic Text", 
+in Proceedings of the Sixth International Conference on Human and Social Analytics, IARIA, pp 26-32.</a>
+<br><br>
+<a href="documents/ICCAIS2019.pdf">Sarah S. Alduayj &amp; Phillip Smith (2019) "Sentiment Classification and Prediction of Job Interview Performance", in Proceedings of the 2nd International Conference on Computer Applications and Information Security (ICCAIS 2019). IEEE, pp. 1-6.</a>
+<br><br>
+<a href="documents/wassa2015.pdf">Phillip Smith &amp; Mark Lee (2015) "Sentiment Classification via a Response Recalibration Framework", in
+Proceedings of the 6th Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis (WASSA), EMNLP.</a>
+<br><br>
+<a href="documents/CICLing-SmithLee2014.pdf">Phillip Smith &amp; Mark Lee (2014) "Acknowledging Discourse Function for Sentiment Analysis", in
+Proceedings of the 15th Conference on Intelligent Text Processing and Computational Linguistics
+(CICLing), Lecture Notes in Computer Science, Springer, pp 45-53.</a>
+<br>
+<br>
+<a href="documents/AAAISS13SAM.pdf">Phillip Smith &amp; Mark Lee (2013) "Fine-Grained Sentiment Analysis in Microtext", American Association for Artificial Intelligence (AAAI) Spring Symposium on Analyzing Microtext 2013, pp 80-86.</a>
+<br>
+<br>
+<a href="documents/WASSA2012.pdf">Phillip Smith &amp; Mark Lee (2012) "Cross-discourse Development of Supervised Sentiment Analysis in the Clinical Domain", in Proceedings of the 3rd Workshop on Computational Approaches to Subjectivity and Sentiment Analysis, ACL, pp 79-83.</a>
+<br/>
+<br/> 
+<a href="http://wing.comp.nus.edu.sg/%7Eantho/W/W12/W12-5302.pdf">Phillip Smith &amp; Mark Lee (2012) "A CCG-Based Approach to Fine-Grained Sentiment Analysis", in Proceedings of the 2nd Workshop on Sentiment Analysis where AI meets Psychology, COLING 2012, pp 3-16.</a>
+<br>
+<br>
+<h3>Thesis</h3>
+<a href="https://etheses.bham.ac.uk/id/eprint/7406/">Phillip Smith (2017). Sentiment analysis of patient feedback. University of Birmingham. Ph.D.</a>
+<br>
+<br>
+<!--<b> Abstract</b>
+<br>
+The application of sentiment analysis as a method for the automatic categorisation of opinions
+in text has grown increasingly popular across a number of domains over the past few years. In
+particular, health services have started to consider sentiment analysis as a solution for the task
+of processing the ever-growing amount of feedback that is received in regards to patient care.
+However, the domain is relatively under-studied in regards to the application of the technology,
+and the effectiveness and performance of methods have not been substantially demonstrated.
+<br>
+Beginning with a survey of sentiment analysis and an examination of the work undertaken
+so far in the clinical domain, this thesis examines the application of supervised machine learning
+models to the classification of sentiment in patient feedback. As a starting point, this requires
+a suitably annotated patient feedback dataset, for both analysis and experimentation. Following
+the construction and detailed analysis of such a resource, a series of machine learning experiments study the impact of different models, features and review types to the problem. These
+experiments examine the applicability of the selected methods and demonstrate that model and
+feature choice may not be a significant issue in sentiment classification, whereas the type of
+review that the models train and test across does affect the outcome of classification. Finally, by
+examining the role that responses play in the patient feedback process and developing the idea
+of incorporating the inter-document context provided by the response into the feedback classification process, a recalibration framework for the labelling of sentiment in ambiguous texts for
+patient feedback is developed.
+<br>
+As this detailed analysis will demonstrate, while some problems in performance remain
+despite the development and implementation of the recalibration framework, sentiment analysis
+of patient feedback is indeed viable, and achieves a classification accuracy of 91.4% and F1
+of 0.902 on the gathered data. Furthermore, the models and data can serve as a baseline to
+study the nature of patient feedback, and provide a unique opportunity for the development of
+sentiment analysis in the clinical domain.
+<br/>
+<br/>
+<b>Presentations:</b>
+<br/>
+<a href="documents/PGTipsPresentation.pdf">Cross-discourse development of supervised sentiment analysis</a>
+-->
+
+      <hr>
+
+      <div class="footer">
+        <p>&copy; Phillip Smith </p>
+
+      </div>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../js/jquery.js"></script>
+    <script src="../js/bootstrap-transition.js"></script>
+
+    <script src="../js/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap-tooltip.js"></script>
+
+    <script src="../js/bootstrap-popover.js"></script>
+    <script src="../js/bootstrap-button.js"></script>
+    <script src="../js/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap-typeahead.js"></script>
+
+  </body>
+
+</html>
+
+
+
+
