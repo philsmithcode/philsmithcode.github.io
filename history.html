@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A consolidated history of Computer Science at the University of Birmingham, from 1959 to the present, based on the School's archived history and current University sources.">
+  <meta name="description" content="A consolidated history of Computer Science at the University of Birmingham, from 1959 to the present, based on the School's archived history and current University sources, with historical and modern photographs.">
   <title>A History of Computer Science at Birmingham — 1959 to the Present</title>
   <style>
     :root{
@@ -16,7 +16,7 @@
       --line:#ddd8d0;
       --soft:#f2eee8;
       --link:#6f1834;
-      --max:1120px;
+      --max:1140px;
     }
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
@@ -126,13 +126,17 @@
     .photo-strip{
       display:grid; grid-template-columns:repeat(4,1fr); gap:1rem; margin-top:1.5rem;
     }
+    .modern-photo-strip{
+      display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; margin-top:1.5rem;
+    }
     figure{
       margin:0; background:#fff; border:1px solid var(--line); border-radius:14px; overflow:hidden;
     }
     figure img{
       display:block; width:100%; aspect-ratio:4/3; object-fit:cover; background:#e9e5df;
     }
-    figcaption{padding:.7rem .8rem .8rem; font-size:.82rem; line-height:1.42; color:var(--muted)}
+    figcaption{padding:.75rem .8rem .85rem; font-size:.84rem; line-height:1.5; color:var(--muted)}
+    figcaption strong{color:#1c2024}
     .today-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:1rem}
     .today-card{background:#fff; border:1px solid var(--line); border-radius:16px; padding:1.25rem}
     .today-card h3{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:1.05rem}
@@ -149,20 +153,20 @@
       font: .86rem/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
     }
     .small{font-size:.88rem; color:var(--muted)}
-    @media(max-width:800px){
-      .intro-grid,.today-grid{grid-template-columns:1fr}
+    @media(max-width:900px){
+      .intro-grid,.today-grid,.modern-photo-strip{grid-template-columns:1fr}
       .era{grid-template-columns:1fr; gap:.8rem}
       .era-label{position:static}
       .photo-strip{grid-template-columns:repeat(2,1fr)}
     }
-    @media(max-width:480px){
-      .photo-strip{grid-template-columns:1fr}
+    @media(max-width:540px){
+      .photo-strip,.modern-photo-strip{grid-template-columns:1fr}
       header.hero{padding-top:4rem}
     }
     @media print{
       nav.jump{display:none}
       body{background:#fff}
-      article.event,.at-a-glance,.today-card{break-inside:avoid}
+      article.event,.at-a-glance,.today-card,figure{break-inside:avoid}
       a{color:inherit}
       header.hero{background:#fff;color:#000;padding:2rem 0}
       .dek{color:#333}
@@ -182,6 +186,7 @@
       <span class="pill">1959–present</span>
       <span class="pill">Consolidated from archived School pages</span>
       <span class="pill">Updated September 2026</span>
+      <span class="pill">Includes historical and modern photographs</span>
     </div>
   </div>
 </header>
@@ -208,7 +213,7 @@
       <h2>Computing at Birmingham is almost as old as the discipline itself.</h2>
       <p class="lead">The institutional story begins in 1959, when a Lectureship in Computing was created in the Department of Mathematical Physics. What began as an effort to provide scarce computing capacity for researchers across the University gradually developed into a distinct academic discipline, a suite of degree programmes, and ultimately the School of Computer Science.</p>
       <p>The history is also a story of changing technology. Birmingham moved from paper tape, punched cards and a room-sized KDF9, through interactive terminals, UNIX minicomputers and Multics, to high-performance computing, artificial intelligence, cyber security, robotics, data science and today's increasingly AI-rich curriculum.</p>
-      <div class="note sans"><strong>About this page.</strong> The chronology to 2006 is a condensed and rewritten version of the School's former history website, preserved by the Internet Archive. The later section extends that record using public University of Birmingham sources. It is intended as a historical consolidation, not a verbatim republication of the archived pages.</div>
+      <div class="note sans"><strong>About this page.</strong> The chronology to 2006 is a condensed and rewritten version of the School's former history website, preserved by the Internet Archive. The later section extends that record using public University of Birmingham sources. This updated edition also integrates openly reusable modern photographs of the School and its surroundings from 2006 onwards.</div>
     </div>
     <aside class="at-a-glance">
       <h3>Key dates at a glance</h3>
@@ -410,6 +415,17 @@
       </article>
     </div>
   </div>
+
+  <div class="modern-photo-strip" aria-label="Modern photos of the School from the 2000s">
+    <figure>
+      <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/University%20of%20Birmingham%20Computer%20Science.png" alt="Faraday statue in front of the School of Computer Science in 2006">
+      <figcaption><strong>School exterior, 2006.</strong> The Faraday statue in front of the School of Computer Science. Photo by <a href="https://commons.wikimedia.org/wiki/File:University_of_Birmingham_Computer_Science.png">Daniel Morris</a>, dated 27 September 2006. Reused under <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</figcaption>
+    </figure>
+    <figure>
+      <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Computer_Science.JPG" alt="School of Computer Science building in 2007">
+      <figcaption><strong>School exterior, 2007.</strong> View of the Computer Science building and the Faraday statue. Photo by <a href="https://commons.wikimedia.org/wiki/File:Computer_Science.JPG">Manuel Ebert</a>, dated 13 September 2007. Reused under <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</figcaption>
+    </figure>
+  </div>
 </section>
 
 <section id="2010">
@@ -440,6 +456,17 @@
         <p>The University became a partner of The Alan Turing Institute in 2018, deepening links to the UK's national institute for data science and AI. By 2019 the School was reporting substantial recruitment of new academic staff in cyber security, artificial intelligence and theoretical computer science, alongside its largest-ever first-year undergraduate cohort at the time.</p>
       </article>
     </div>
+  </div>
+
+  <div class="modern-photo-strip" aria-label="Modern photos from the 2010s">
+    <figure>
+      <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Faraday_Statue_at_University_of_Birmingham.jpg" alt="Faraday statue near the engineering and computer science building in 2015">
+      <figcaption><strong>Faraday and the School, 2015.</strong> Statue of Faraday near the engineering and Computer Science building. Photo by <a href="https://commons.wikimedia.org/wiki/File:Faraday_Statue_at_University_of_Birmingham.jpg">Balluwun-enjoyer</a>, dated 18 April 2015. Reused under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>.</figcaption>
+    </figure>
+    <figure>
+      <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Computer_Science.JPG" alt="School of Computer Science building and Faraday statue">
+      <figcaption><strong>A lasting exterior identity.</strong> The Faraday statue remains a recognisable visual marker of the School across the 2000s and 2010s, linking the School's newer home to its more recent public image.</figcaption>
+    </figure>
   </div>
 </section>
 
@@ -472,6 +499,17 @@
     </div>
   </div>
 
+  <div class="modern-photo-strip" aria-label="Contemporary photos of the School">
+    <figure>
+      <img loading="lazy" src="https://images.unsplash.com/photo-1646315449422-ea26638a9e6c?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&q=80&w=1600" alt="Entrance to the School of Computer Science in 2022">
+      <figcaption><strong>School entrance, 2022.</strong> Contemporary view of the entrance to the School of Computer Science. Photo by <a href="https://unsplash.com/photos/the-entrance-to-a-building-with-a-metal-hand-rail-G7MeW2Pgz_M">Korng Sok</a>, published 3 March 2022. Reused under the <a href="https://unsplash.com/license">Unsplash License</a>.</figcaption>
+    </figure>
+    <figure>
+      <img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Faraday_Statue_at_University_of_Birmingham.jpg" alt="Faraday statue near the engineering and computer science building">
+      <figcaption><strong>Continuity into the present.</strong> The School's contemporary public face still sits within a recognisable physical landscape: the West Campus Computer Science building, the Faraday statue and the routes connecting Computer Science with neighbouring engineering activity.</figcaption>
+    </figure>
+  </div>
+
   <div class="today-grid" style="margin-top:1.5rem">
     <div class="today-card">
       <h3>Research today</h3>
@@ -489,14 +527,14 @@
     <p class="eyebrow">Historical provenance</p>
     <h2>Acknowledgements</h2>
     <p>The School's original history records that the material covering <strong>1959–1994 was prepared by Tom Axford</strong>, with particular thanks to <strong>Peter Walling</strong> for information about the early years of the University Computing Service. It also acknowledges the many colleagues who contributed information and photographs.</p>
-    <p>This consolidated edition preserves that acknowledgement and is based principally on the former School of Computer Science history pages, archived by the Internet Archive. The post-2006 continuation has been compiled from publicly available University of Birmingham news, research and School pages current to September 2026.</p>
+    <p>This consolidated edition preserves that acknowledgement and is based principally on the former School of Computer Science history pages, archived by the Internet Archive. The post-2006 continuation has been compiled from publicly available University of Birmingham sources current to September 2026. The modern photographs integrated here are drawn only from sources with clearly stated reuse terms.</p>
     <p class="small" style="color:#d8cbd0">If this page is developed further, recollections and corrections from former staff, students and alumni would be valuable additions—particularly for the period after the original history stopped being maintained.</p>
   </div>
 </section>
 
 <section id="sources" class="sources">
   <h2>Sources and further reading</h2>
-  <p>The principal historical sources are the University's former School of Computer Science history pages, preserved by the Internet Archive. Later milestones use current or archived University of Birmingham pages.</p>
+  <p>The principal historical sources are the University's former School of Computer Science history pages, preserved by the Internet Archive. Later milestones use current or archived University of Birmingham pages. The modern images below are included from sources with explicit reuse permissions.</p>
   <ol>
     <li><a href="https://web.archive.org/web/20070205191627/http://www.cs.bham.ac.uk/about/history/">School history: 1959–1969</a> (archived).</li>
     <li><a href="https://web.archive.org/web/20070207132650/http://www.cs.bham.ac.uk/about/history/history1970.php">School history: 1970–1979</a> (archived).</li>
@@ -514,8 +552,12 @@
     <li><a href="https://www.birmingham.ac.uk/research/engineering-sciences/eps-ref-21">REF 2021 results for Engineering and Physical Sciences</a>.</li>
     <li><a href="https://www.birmingham.ac.uk/research/centres-institutes/research-in-computer-science">School of Computer Science research</a> (current).</li>
     <li><a href="https://www.birmingham.ac.uk/news/2026/university-of-birmingham-first-in-russell-group-in-latest-national-student-survey-results">2026 National Student Survey results</a>, University of Birmingham.</li>
+    <li><a href="https://commons.wikimedia.org/wiki/File:University_of_Birmingham_Computer_Science.png">Daniel Morris, <em>University of Birmingham Computer Science</em></a>, dated 27 September 2006, CC BY-SA 2.0.</li>
+    <li><a href="https://commons.wikimedia.org/wiki/File:Computer_Science.JPG">Manuel Ebert, <em>Computer Science.JPG</em></a>, dated 13 September 2007, CC BY-SA 2.0.</li>
+    <li><a href="https://commons.wikimedia.org/wiki/File:Faraday_Statue_at_University_of_Birmingham.jpg">Balluwun-enjoyer, <em>Faraday Statue at University of Birmingham</em></a>, dated 18 April 2015, CC0.</li>
+    <li><a href="https://unsplash.com/photos/the-entrance-to-a-building-with-a-metal-hand-rail-G7MeW2Pgz_M">Korng Sok, <em>the entrance to a building with a metal hand rail</em></a>, published 3 March 2022, Unsplash License.</li>
   </ol>
-  <div class="source-note sans"><strong>Image hosting note.</strong> The photographs above are loaded from the Internet Archive so that this file remains a single-page HTML document. For a permanent site, it is better to host copies of the historical photographs yourself (subject to the rights applying to the original images) and replace the image <code>src</code> values with local paths.</div>
+  <div class="source-note sans"><strong>Image hosting note.</strong> The historical images above still load from the Internet Archive, while the modern images are embedded from Wikimedia Commons and Unsplash. For the most robust long-term hosting, it is still better to host your own local copies of the images you intend to use and keep the captions, attribution and licence information intact.</div>
 </section>
 </main>
 
